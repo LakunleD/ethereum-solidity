@@ -1,5 +1,6 @@
 pragma solidity ^0.4.0;
 
+
 contract HelloWorldContract {
     
     string public word = "Hello World";
@@ -17,7 +18,7 @@ contract HelloWorldContract {
         _; // continue to the underlining code here
     }
     
-    function getWord() constant returns(string){
+    function getWord() constant returns(string) {
         return word;
     }
     
