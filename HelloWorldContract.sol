@@ -5,7 +5,7 @@ contract HelloWorldContract {
     string public word = "Hello World";
     
     // getters makes use of the constant keyword
-    function getWord() constant returns(string){
+    function getWord() constant returns(string) {
         return word;
     }
     
